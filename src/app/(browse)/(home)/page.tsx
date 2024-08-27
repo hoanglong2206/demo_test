@@ -247,7 +247,7 @@ const Home = () => {
             </div>
           </Button>
         </div>
-        <div className="flex absolute items-center top-14 right-4 md:right-20 xl:right-40 justify-center w-12 h-12 md:w-16 md:h-16 xl:w-24 xl:h-24 bg-white rounded-full">
+        <div className="flex absolute items-center top-20 xl:top-16 right-3 md:right-20 xl:right-40 justify-center w-12 h-12 md:w-16 md:h-16 xl:w-24 xl:h-24 bg-white rounded-full">
           <img
             src={
               "https://img.icons8.com/?size=100&id=30840&format=png&color=000000"
@@ -256,7 +256,7 @@ const Home = () => {
             className="object-contain h-full w-full hover:scale-109 shadow-xl rounded-full transition-transform duration-300 ease-in-out p-1 md:p-2 xl:p-4"
           />
         </div>
-        <div className="flex absolute items-center top-6 left-6 md:left-20 xl:left-60 justify-center w-12 h-12 md:w-14 md:h-14 xl:w-16 xl:h-16 bg-white rounded-full">
+        <div className="flex absolute items-center top-4 left-3 md:left-20 xl:left-60 justify-center w-12 h-12 md:w-14 md:h-14 xl:w-16 xl:h-16 bg-white rounded-full">
           <img
             src={
               "https://img.icons8.com/?size=100&id=uLWV5A9vXIPu&format=png&color=000000"
@@ -265,7 +265,7 @@ const Home = () => {
             className="object-contain h-full w-full hover:scale-109 shadow-xl rounded-full transition-transform duration-300 ease-in-out p-1 xl:p-2"
           />
         </div>
-        <div className="flex absolute items-center top-48 xl:top-40 md:top-44 left-1 md:left-16 xl:left-80 justify-center w-12 h-12 bg-white rounded-full">
+        <div className="flex absolute items-center top-52 xl:top-40 md:top-44 left-1 md:left-16 xl:left-80 justify-center w-12 h-12 bg-white rounded-full">
           <img
             src={
               "https://img.icons8.com/?size=100&id=17949&format=png&color=000000"
@@ -274,7 +274,7 @@ const Home = () => {
             className="object-contain h-full w-full hover:scale-109 shadow-xl rounded-full transition-transform duration-300 ease-in-out p-1"
           />
         </div>
-        <div className="flex absolute items-center top-52 xl:top-48 right-10 xl:right-80 justify-center w-12 h-12 bg-white rounded-full">
+        <div className="flex absolute items-center top-60 xl:top-48 right-6 xl:right-80 justify-center w-12 h-12 bg-white rounded-full">
           <img
             src={
               "https://img.icons8.com/?size=100&id=G9XXzb9XaEKX&format=png&color=000000"
