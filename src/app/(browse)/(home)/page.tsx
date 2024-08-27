@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
 import { Icons } from "@/lib/icon";
+import { useRouter } from "next/router";
 
 const brands: any[] = [
   {
@@ -44,6 +45,7 @@ const brands: any[] = [
 ];
 
 const Home = () => {
+  const router = useRouter();
   return (
     <div className="w-full space-y-8 pb-10">
       <div className="relative">
@@ -89,7 +91,10 @@ const Home = () => {
         </div>
       </div>
       <div className="relative mx-auto min-h-[100px] md:min-h-[200px] xl:min-h-[400px] flex items-center justify-center">
-        <div className="absolute -top-16 md:-top-36 right-6 md:right-4 xl:right-12 flex items-center justify-center rounded-lg ">
+        <div
+          onClick={() => router.push("/dashboard")}
+          className="absolute cursor-pointer -top-16 md:-top-36 right-6 md:right-4 xl:right-12 flex items-center justify-center rounded-lg "
+        >
           <Image
             src={dashboardImg}
             alt="dashboard"
