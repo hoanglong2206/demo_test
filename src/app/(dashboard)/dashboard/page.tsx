@@ -409,7 +409,7 @@ const Dashboard = () => {
           </CardContent>
         </Card>
       </div>
-      <div className="p-4 rounded-md shadow-xl bg-slate-100 dark:bg-slate-950">
+      <div className="p-4 rounded-md border shadow-xl bg-slate-50 dark:bg-slate-950">
         <TableStocks />
       </div>
     </div>
