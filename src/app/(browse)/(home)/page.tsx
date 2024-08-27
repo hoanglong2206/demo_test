@@ -14,7 +14,7 @@ import {
 } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
 import { Icons } from "@/lib/icon";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 
 const brands: any[] = [
   {
