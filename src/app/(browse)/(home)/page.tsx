@@ -88,8 +88,8 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="relative mx-auto min-h-[100px] md:min-h-[200px] xl:min-h-[360px] flex items-center justify-center">
-        <div className="absolute -top-16 md:-top-36 right-6 md:right-4 xl:right-72 flex items-center justify-center rounded-lg ">
+      <div className="relative mx-auto min-h-[100px] md:min-h-[200px] xl:min-h-[400px] flex items-center justify-center">
+        <div className="absolute -top-16 md:-top-36 right-6 md:right-4 xl:right-12 flex items-center justify-center rounded-lg ">
           <Image
             src={dashboardImg}
             alt="dashboard"
