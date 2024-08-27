@@ -74,6 +74,7 @@ const Home = () => {
             </div>
             <div className="flex items-center justify-center gap-x-4">
               <Button
+                onClick={() => router.push("/dashboard")}
                 variant={"ghost"}
                 className="h-10 md:h-12 px-4 md:px-6 border border-white md:text-lg dark:text-slate-400 font-semibold text-muted"
               >
