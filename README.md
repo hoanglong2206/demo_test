@@ -1,5 +1,12 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Installation
+Clone the repository by entering `$ git clone https://github.com/hoanglong2206/demo_test.git`
+
+```sh
+   npm install
+```
+
 ## Getting Started
 
 First, run the development server:
