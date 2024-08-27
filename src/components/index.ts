@@ -10,3 +10,4 @@ export { default as HoverNotification } from "./custom/HoverNotification";
 export { default as HoverMessage } from "./custom/HoverMessage";
 export { default as DropdownUser } from "./custom/DropdownUser";
 export { default as SearchBar } from "./custom/SearchBar";
+export { default as TableStocks } from "./custom/TableStocks";

@@ -25,6 +25,7 @@ import { firstLetterUppercase, formatPrice } from "@/lib/utils";
 import { MoveDown, MoveUp, Plus } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
+import { TableStocks } from "@/components";
 
 const brands: any[] = [
   {
@@ -408,6 +409,7 @@ const Dashboard = () => {
           </CardContent>
         </Card>
       </div>
+      <TableStocks />
     </div>
   );
 };

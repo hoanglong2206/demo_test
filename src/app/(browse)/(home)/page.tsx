@@ -199,7 +199,7 @@ const Home = () => {
         </div>
       </div>
       <div className="space-y-8 px-10 xl:px-28">
-        <div className="md:text-4xl xl:text-5xl text-2xl tracking-wide w-2/3 xl:w-1/2 font-semibold ml-14">
+        <div className="md:text-4xl xl:text-5xl text-[28px] text-center lg:text-start tracking-wide xl:w-1/2 font-semibold lg:ml-14">
           Find the most suitable stock for you to buy now
         </div>
         <div className="flex items-center justify-center rounded-lg shadow-md border">
